@@ -1,7 +1,7 @@
 # Coding Test
 
 ## Output of Problem 2: Ordering
-I didn't make API mock and test, because of lack of time due my unexpected personal stuff. Other should be done.
+I didn't make API mock and test and translation (text-handling), because of lack of time due my unexpected personal stuff. Other should be done.
 
 ## How to run
 ### Development env
