@@ -1,0 +1,75 @@
+{
+    "name": "coding-test",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "@types/jest": "^26.0.15",
+        "@types/node": "^12.0.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "axios": "^0.23.0",
+        "bootstrap": "5.1.1",
+        "node-sass": "^5.0.0",
+        "react": "^17.0.2",
+        "react-bootstrap": "^2.0.0-rc.1",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.5",
+        "react-scripts": "4.0.3",
+        "redux": "^4.1.1",
+        "typescript": "^4.1.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "jest",
+        "test:watch": "npm test -- --watch",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.15.8",
+        "@babel/preset-typescript": "^7.15.0",
+        "@reduxjs/toolkit": "^1.6.2",
+        "prettier": "2.4.1",
+        "ts-jest": "^26.0.15"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "moduleDirectories": [
+            "node_modules",
+            "src"
+        ],
+        "moduleNameMapper": {
+            "\\.(css|scss)$": "<rootDir>/src/test/__mocks__/styleMock.ts"
+        },
+        "setupFilesAfterEnv": [
+            "<rootDir>/src/setupTests.ts"
+        ]
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-typescript"
+        ]
+    }
+}

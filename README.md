@@ -1,5 +1,19 @@
 # Coding Test
 
+## Output
+I didn't make API mock and test, because of lack of time due my personal stuff.
+
+## How to run
+### Development env
+In root: run `yarn` and then `yarn start`
+
+### Production env
+In `build` folder run `npx http-server`
+
+### Tests
+In root run `yarn test`
+
+----------------------------------------------
 Do you want to join the engineering team at [Teamleader](https://www.teamleader.eu/company/engineering)?
 
 We have created this exercise in order to gain insights into your development skills.

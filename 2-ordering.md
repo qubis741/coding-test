@@ -14,11 +14,11 @@ We need you to focus on the behavioral part.
 
 ## APIs
 
-In the [example-orders](./example-orders/) directory, you can find a couple of example orders.
+In the [example-orders](src/example-orders/) directory, you can find a couple of example orders.
 You can assume these are in the format of the real external API.
 For now, you can use this dummy data, but make sure we can plug in the real api in easily.
 
-In the [data](./data/) directory, you can find source files for customer data and product data, in case you need it.
+In the [data](src/data/) directory, you can find source files for customer data and product data, in case you need it.
 You can assume these are in the format of the real external API.
 
 To place the order, just log it on the console, but make sure we can plug in the real api endpoint easily.
