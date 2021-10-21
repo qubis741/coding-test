@@ -74,6 +74,21 @@ describe('OrderDetailPage', () => {
         expect(screen.queryByText(/Total: 69.00/i)).not.toBeInTheDocument()
     })
 
+    test('try to change product quantity lower than 1, quantity stays same', async () => {
+        render(<App />)
+
+        fireEvent.change(
+            await screen.findByLabelText('product-A101-quantity'),
+            { target: { value: '0' } }
+        )
+
+        expect(screen.getByDisplayValue('2')).toHaveAttribute(
+            'aria-label',
+            'product-A101-quantity'
+        )
+        expect(screen.queryByText(/Total: 69.00/i)).toBeInTheDocument()
+    })
+
     test('clicked on REMOVE button of product, product is removed from order', async () => {
         render(<App />)
 
